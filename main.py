@@ -18,4 +18,4 @@ for item in lst:
       isHuman += [False]
 data = pd.DataFrame({'whoAmI':lst})
 dataOneHot = pd.DataFrame({'human':isHuman, 'robot':isRobot})
-dataOneHot.head()
+dataOneHot.head(20)
